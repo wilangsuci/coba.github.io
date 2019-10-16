@@ -1,0 +1,500 @@
+html{
+	scroll-behavior: smooth;
+
+}
+
+
+.navbar{
+	background: rgba(186, 186, 186,0.8);
+}
+
+.navbar .container{
+	border-top: 0.1px solid white;
+	border-bottom: 0.1px solid white !important;
+}
+.navbar .nav-link{
+	color: black !important;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+.navbar .nav-link{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.jumbotron {
+	background-image: url(../images/weeding3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.jumbotron .display-4{
+	margin-top: 160px;
+	color: white;
+	font-family: 'Allura', cursive;
+	font-size: 48px;
+	text-shadow: 1px 1px 8px rgba(128, 128, 128);
+}
+
+.jumbotron .lead{
+	font-family: "Amatic SC";
+	font-size: 8px;
+	margin-top: -20px;
+	color: white;
+	text-shadow: 1px 1px 8px rgba(128, 128, 128);
+
+}
+
+.content-1 {
+	background-image: url(../images/batik.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -32px;
+	margin-bottom: 3.2px;
+	border-bottom: 2px dotted #B6A7A2;
+	padding: 25px;
+}
+.text-acara{
+	color: #B6A7A2;
+	font-size: 35px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+
+}
+
+.content-1 .ornamen {
+	margin-top: -23px;
+	margin-bottom: 50px;
+}
+
+
+.undangankiri p{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+}
+.undangankiri .name{
+	color: #efa461;
+	font-family: 'Lovers Quarrel', cursive;
+    font-size: 38px !important;
+    line-height: 0.7em !important;
+    letter-spacing: 2px;
+}
+.undangankiri .parent {
+	font-size: 12px !important;
+    line-height: normal !important;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 29px;
+}
+
+.undangankanan p {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.content-2{
+	background-image: url(../images/batik.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -3px;
+	border-bottom: 2px dotted #B6A7A2;
+	height: 650px;
+}
+
+.content-2 .card-body .card-title{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+
+}
+.content-2 .card{
+	margin-top: 10px;
+	opacity: 0;
+	transition: 0.4s;
+	transform: translate(0, -40px);
+}
+
+
+.content-2 .card.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.content-2 .text-acara{
+	color: #B6A7A2;
+	font-size: 35px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.content-2 .card-text{
+	text-align: justify;
+	font-size: 10px;
+}
+.content-3{
+	text-align: center;
+	background-image: url(../images/batik.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;	
+	padding: 25px;
+	border-bottom: 2px dotted #B6A7A2;
+}
+
+.content-3 .text-acara{
+	color: #B6A7A2;
+	font-size: 35px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+.content-3 img{
+	width: 400px;
+}
+
+
+.portfolio {
+    padding: 90px 0 30px;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+
+.portfolio-item-inner {
+    position: relative;
+    opacity: 0;
+    transition: 0.4s;
+    transform: translate(0, -50px);
+}
+
+
+.portfolio-item-inner.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.portfolio-item-inner a {
+    display: block;
+    overflow: hidden;
+    outline: none;
+}
+.portfolio-item-inner a img {
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.portfolio-item-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.portfolio-text {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: white;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.portfolio-text h3 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.portfolio-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.portfolio-item-inner a:hover .portfolio-item-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio-item-inner a:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-item-inner a:hover .portfolio-text {
+    bottom: 20px;
+}
+
+.content-4 {
+	background-image: url('../images/batik.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 25px;
+}
+
+.content-4 .text-acara{
+	color: #B6A7A2;
+	font-size: 35px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+.content-4 h4 {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px rgba(0,0,0);
+}
+.content-4 p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px aqua;
+}
+
+.content-4 .resepsi{
+	opacity: 0;
+	transition: 0.4s;
+	transform: translate(0, -50px);
+}
+
+.content-4 .resepsi.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.content-4 .resepsi img:hover , .ngunduh img:hover{
+	transition: 0.9s;
+	transform: scale(1.1);
+	border :3px dotted #FFD700;
+}
+
+.content-5 {
+	background-image: url('../images/batik.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.content-6 {
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	color: white;
+}
+
+
+
+
+/*Media Desktop*/
+@media (min-width: 992px) {
+
+.navbar{
+		margin-top: -2px;
+		background: rgba(186, 186, 186,0.5);
+}
+
+.navbar .navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0);
+}
+.navbar .nav-link{
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-right: 40px;
+	color: white !important;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0);
+}
+.navbar .navbar-brand:hover{
+	color: white;
+}
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	width: 20px;
+	margin: auto;
+	color: black;
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+	margin-bottom: -7px;
+}
+
+
+.jumbotron {
+	height: 650px;
+}
+
+.jumbotron .display-4{
+	margin-top: 160px;
+	color: white;
+	font-family: 'Allura', cursive;
+	font-size: 180px;
+	text-shadow: 1px 1px 8px rgba(128, 128, 128);
+}
+
+.jumbotron .lead{
+	font-family: "Amatic SC";
+	margin-top: -58px;
+	color: white;
+	text-shadow: 1px 1px 8px rgba(128, 128, 128);
+	font-size: 25px;
+
+}
+
+.undangankiri{
+	border-right: 2px dotted #B6A7A2;
+			}
+
+.undangankiri p{
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.undangankanan p {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+.undangankiri .name{
+	color: #efa461;
+	font-family: 'Lovers Quarrel', cursive;
+    font-size: 60px !important;
+    line-height: 0.7em !important;
+    letter-spacing: 2px;
+}
+.undangankiri .parent {
+	font-size: 14px !important;
+    line-height: normal !important;
+    font-weight: bold;
+    margin-top: -8px;
+    margin-bottom: 29px;
+}
+
+.content-1 .text-acara{
+	color: #B6A7A2;
+	font-size: 55px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+.content-1 .ornamen {
+	margin-top: -23px;
+	margin-bottom: 50px;
+}
+
+.content-2{
+	height: 750px;
+}
+
+.content-2 .ornamen{
+	margin-top: -23px;
+	margin-bottom: 50px;
+}
+.content-2 .text-acara{
+	font-size: 55px;
+}
+	
+
+
+.content-2 .card{
+	box-shadow: 1px 1px 8px rgba(128, 128, 128);
+	border-radius: 4%;
+}
+
+
+.content-2 .card-body .card-title{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+
+}
+
+.content-2 .cardkiri{
+	margin-right: 20px;
+}
+
+.content-2 .card-body .card-text{
+	text-align: justify;
+	font-size: 18px;
+}
+.content-3 .text-acara{
+	color: #B6A7A2;
+	font-size: 55px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+.content-4 .text-acara{
+	color: #B6A7A2;
+	font-size: 55px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	font-family: 'Caveat', cursive;
+	text-align: center;
+}
+
+.content-4 .ornamen{
+	margin-top: -23px;
+	margin-bottom: 50px;
+}
+
+.content-4 h4 {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px rgba(0,0,0);
+}
+.content-4 p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px aqua;
+}
+
+
+
+}
